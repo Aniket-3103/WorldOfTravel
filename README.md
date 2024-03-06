@@ -18,7 +18,19 @@ Microsoft SQL Server: Database management is handled using Microsoft SQL Server 
 ![2022-09-30 (1)](https://github.com/Aniket-3103/WorldOfTravel/assets/152020923/4fdb580f-0c24-4479-bca9-b3f827c7bebd)
 
 
-![2022-09-30 (2)](https://github.com/Aniket-3103/WorldOfTravel/assets/152020923/3446e226-8f81-48ce-b4ab-0acd8abc1620)
+![image](https://github.com/Aniket-3103/WorldOfTravel/assets/152020923/b69c4f78-8039-4600-82a2-d2575fc0bf87)
+
+
+![image](https://github.com/Aniket-3103/WorldOfTravel/assets/152020923/7ab2addb-9ac0-4970-8407-ed5e9ba84bb5)
+
+
+![image](https://github.com/Aniket-3103/WorldOfTravel/assets/152020923/1d1e6040-69a7-41ee-89ad-d15ad8ffda4a)
+
+
+
+![image](https://github.com/Aniket-3103/WorldOfTravel/assets/152020923/5baa50e3-7b3d-4fd8-abde-121e70daa0c1)
+
+
 
 
 ![dot_net](https://github.com/Aniket-3103/WorldOfTravel/assets/152020923/0b028900-9f0f-4958-8c65-bde45773d885)
