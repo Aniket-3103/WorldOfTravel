@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ESE_PROJECT.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+      
+    </asp:ContentPlaceHolder>
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+   
+     <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+            background: linear-gradient(#32476b, #1f4c9e, #0f2f81);
+        }
+
+        #Image1{
+            border-radius:18px;
+            margin-top:-87px;
+        }
+       
+
+        .box{
+                /*border: solid 3px black;*/
+                margin-top: 3px;
+                padding: 11px;
+                font-family: Mukta, Lato, sans-serif;
+                font-size: 14px;
+                display: inline-grid;
+                width: 31%;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+               
+        }
+
+        #footer3{
+            margin-top:0px;
+        }
+        #footer{
+            background-color:black;
+            width: 1513px;
+            height: 223px;
+            z-index:200;
+        }
+
+        #Label1{
+            font-family:Mukta, Lato, sans-serif;
+            font-weight:700;
+            font-size:16px;
+        }
+        .auto-style2 {
+            text-align: left;
+            position: sticky;
+           
+        }
+
+        #Button1{
+            float: right;
+            margin: 23px;
+            padding: 8px;
+            margin-right:67px;
+            border-radius: 9px;
+            border: 3px solid transparent;
+            color: White;
+            background-color: #6b94c4;
+            text-align: right;
+        }
+
+        #Button3{
+            float: right;
+            margin: 23px;
+            padding: 8px;
+            margin-right:67px;
+            border-radius: 9px;
+            border: 3px solid transparent;
+            color: White;
+            background-color: #3399FF;
+            text-align: right;
+        }
+
+        #logoBackground{
+            position: sticky;
+            top: 0;
+            z-index: 1071;
+            overflow: hidden;
+        }
+
+        #ImageButton7{
+            border-radius:10px;
+        }
+
+        #ImageButton1{
+            border-radius:10px;
+        }
+
+        #ImageButton2{
+            border-radius:10px;
+        }
+
+        #ImageButton4{
+            border-radius:10px;
+        }
+
+        #ImageButton5{
+            border-radius:10px;
+        }
+
+        #Button2{
+             border-color:#0DB8DE;
+            border-radius:8px;
+           background-color:#1A2226;
+        }
+
+        #Button2:hover{
+            background-color:#0DB8DE;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="auto-style1">
+     
+     
+    <div id="logoBackground" style="margin-left: 4px; height: 122px;" class="auto-style2">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Image ID="Image1" runat="server" Height="60px" ImageUrl="~/Images/logo.png" Width="93px" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;<asp:Button ID="Button2" runat="server" Text="MyBookings" ForeColor="White" OnClick="Button2_Click" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/flight.png" PostBackUrl="~/Flight.aspx" />
+                    <asp:Button ID="Button3" runat="server" Text="Logout" Onclick="Button3_Click"/>
+                    <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/Images/hotels.png" />
+                    <asp:ImageButton ID="ImageButton4" runat="server" ImageUrl="~/Images/holiday.png" PostBackUrl="~/NotAvaliable.aspx" />
+                    <asp:ImageButton ID="ImageButton5" runat="server" ImageUrl="~/Images/trains.png" PostBackUrl="~/Train.aspx" />
+                    <asp:ImageButton ID="ImageButton7" runat="server" ImageUrl="~/Images/buses.png" PostBackUrl="~/NotAvaliable.aspx" />
+                     <asp:Button ID="Button1" runat="server" BackColor="#3399FF" ForeColor="White" OnClick="Button1_Click" Text="Login" style="text-align: right" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label3" runat="server" Text="we "></asp:Label>
+        <br />
+        <br />
+    </div>
+       
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+        
+        </asp:ContentPlaceHolder>
+    <div itemprop="acceptedAnswer" class="about" itemscope="" itemtype="https://schema.org/Answer" style="box-sizing: border-box; background-color: #E7E7E7; margin:auto; width:1510px; height: 220px; z-index:400;">
+        <div style="box-sizing: border-box;" class="box">
+            <h4>Why WorldOfTravel</h4>
+            <p>
+                Established in 2022, WorldOfTravel will soon position itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site can be done with complete ease and no hassles at all.
+            </p>
+        </div>
+        <div style="box-sizing: border-box; height: 135px;" class="box">
+            <h4>Bookings Flights with WorldOfTravel</h4>
+            <p>
+                At WorldOfTravel, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website. Being a website for hotel, flight, and holiday bookings, WorldOfTravel helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns.
+            </p>
+        </div>
+        <div style="box-sizing: border-box;" class="box" id="footer3">
+            <h4>Domestic Flights with WorldOfTravel</h4>
+            <p>
+                WorldOfTravel is India's leading player for flight bookings. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure instant fare drops, instant refunds and rebook options, price comparisons and many more interesting features.
+            </p>
+        </div>
+    </div>
+    <div id="footer">
+        <br />&nbsp;&nbsp;&nbsp;
+        <asp:ImageButton ID="ImageButton8" runat="server" Height="37px" ImageUrl="~/Images/twitter.png" Width="56px" OnClick="ImageButton8_Click" style="margin-top: 33px; border-radius:7px" PostBackUrl="https:www.twitter.com" />
+        &nbsp; &nbsp;
+        &nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:ImageButton ID="ImageButton9" runat="server" Height="35px" ImageUrl="~/Images/faceb.png" Width="54px" OnClick="ImageButton9_Click" style="border-radius:7px" PostBackUrl="https:www.facebook.com"/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label1" runat="server" ForeColor="White" Text="© 2022 WORLDOFTRAVEL PVT. LTD."></asp:Label>
+        <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label2" runat="server" ForeColor="White" Text="Country India"></asp:Label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        <br />
+    </div>
+    </form>
+    </body>
+</html>
