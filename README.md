@@ -55,4 +55,20 @@ ESE_project contains all the files and models.
 
 
 
+**Number of modules:**
+
+•	Registration module: The customer fills the registration form by giving the personal information and successfully registers on the website.
+•	Login module: In this the customer will login to the website so he/she can use the website. 
+•	Admin module: Admin module is for the owner of the system. It currently only has admin login module but it will updated to manage users, packages, journeys, etc.
+
+•	User/Customer page module: User page module is for front page of the system. It is the main/home page of the system.
+•	MyBookings module: The customer can see his/her own bookings.
+•	Hotel Booking module: In this module, user can select the hotels from the given hotel and can book the hotels. A customer can book as many hotels as he/she wants. 
+•	Flight Booking module: In this module, user can select the flight for the wishful day and book its ticket. 
+•	Train Booking module: In this module, user can select the trains for their journey and books its ticket. 
+•	Holiday Package module: In this module, user can select the holiday package of their choice and book it. Customer can book as many holiday packages he/she wants. 
+
+
+
+
 
