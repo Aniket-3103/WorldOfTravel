@@ -1,3 +1,3 @@
 # WorldOfTravel
 
-All the files and folers are on master branch.
+All the files and folders are on master branch.
