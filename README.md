@@ -7,7 +7,7 @@ It uses Microsoft SQL Server database.
 
 Backend languages: C#.
 
-For front end: ASPX(Active Server Pages), HTML, CSS and Bootstrap.
+For front end: ASPX(Active Server Pages), CSS and Bootstrap.
 
 I've used some master pages too in this website which contains headers and footers of the website.
 It contains Admin Login too.
