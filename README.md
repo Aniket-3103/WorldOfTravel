@@ -17,9 +17,7 @@ It contains Admin Login too.
 
 
 
-
 ![dot_net](https://github.com/Aniket-3103/WorldOfTravel/assets/152020923/b5291659-3786-45d9-94cf-686bc2686732)
-
 
 
 
@@ -35,10 +33,7 @@ It contains Admin Login too.
 
 
 
-
 ![Screenshot 2024-03-06 181614](https://github.com/Aniket-3103/WorldOfTravel/assets/152020923/064067dd-7349-40f7-a0cc-31deb420eae4)
-
-
 
 
 
